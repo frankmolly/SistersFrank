@@ -1,0 +1,32 @@
+Hannah's Journal
+
+-Sunday February 24th (10am-noon)
+Met as a group to write stories for Genetic Programming. Wrote 3 stories in pivotal tracker and discussed project.
+
+-Tuesday February 25th (7pm-7:30pm)
+Discussed as a group new project ideas becuase we couldn't figure out any stories for Genetic Programming.
+Game?
+Solitaire?
+
+-Thursday February 27th (1-2:15pm)
+Decided on Solitaire as a group. Wrote a few stories. Began Test Driven Development and practiced pair programming. Wrote in C++, used assert, and wrote tests.
+
+-Sunday March 2nd (11am-Noon)
+Edited stories and created tasks. Practiced some pair programming.
+
+-Wednesday March 5th (7pm-8:20pm)
+Began journal as a group. Worked on pair programming for Solitaire. Changed Deck to a vector of cards and then changed back to an array of cards when creating add function.
+
+-Thursday March 6th (9:30-10:15am)
+I met with Dr. Ribler. Discussed switching the program from C++ to C#. Began writing in C#. A few stories were discussed and written to get group started on Solitaire.
+
+-Thursday March 6th (11:30-12am)
+Together our group reviewed an article on the differences between C++ and C# and discussed the new stories, breaking a few into tasks. Quickly assigned some stories points.
+
+-Thursday March 6th (7:30-9:30pm)
+We worked on trying to get our code onto git. We could not figure out how. Downloaded updates to Visual Studios to try and help. Didn't help. Tried to simulate what we did in class but without success.
+
+-Friday March 7th (10am-10:50am)
+I met with Dr. Ribler. Discussed stories and story points.
+
+-Monday March 10th (2pm - )
