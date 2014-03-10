@@ -1,0 +1,53 @@
+Sunday 2/24/14 10AM-12PM
+
+We met with our group today and wrote stories for Genetic Programming.
+We wrote three stories in pivotal tracker and tried to discuss the project.
+
+Tuesday 2/25/14 7-7:30PM
+
+We met as a group to discuss new project ideas because none of us can
+grasp the idea of Genetic Programming. This will be our third project
+change.
+
+Wednesday 2/26/14
+
+Talked to Dr.Ribler about the group's discussion to change topics again.
+Was told to pick a new project and focus on pair programming and test-
+driven development.
+
+Thursday 2/27/14 1-2:15PM
+
+We decided as a group to start creating a Solitaire game as a new project.
+We wrote a few stories in pivotal tracker, and the three of us began
+writing some tests together.
+
+Sunday 3/2/14 11AM-12PM
+
+We met as a group to edit some of our stories we'd created in class, and
+to break some down as tasks. We did a bit more pair programming and creating
+of tests.
+
+Wednesday 3/5/14 7PM-8:20
+
+We began officially our journal. Programmed as a pair for solitaire. We did
+not get far because we created vectors in our program and then decided to
+change everything to a more convenient array in our add function.
+
+Thursday 3/6/14 11:30AM-12PM
+
+We've been asked to change our project from being written in C++ to C#. Hannah
+gave me an article explaining the differences between the two languages, so
+we reviewed the article, discussed the new stories she'd made with Dr.Ribler
+this morning, and broke some into tasks.
+
+Thursday 3/6/14 7:30-9:30
+
+We worked on trying to get our Visual Studios files onto git. We're having a very difficult
+time figuring out how to use github and git. We tried downloading new updates to
+Visual Studios, practiced using the Powershell, tried "cloning" our repository
+to our desktop, etc.
+
+Monday 3/10/14 2PM-
+
+Spent a few minutes recording our previously hand-written journal onto a file we can
+put into gi
