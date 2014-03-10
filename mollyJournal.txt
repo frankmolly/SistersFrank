@@ -47,7 +47,9 @@ time figuring out how to use github and git. We tried downloading new updates to
 Visual Studios, practiced using the Powershell, tried "cloning" our repository
 to our desktop, etc.
 
-Monday 3/10/14 2PM-
+Monday 3/10/14 2-5PM
 
 Spent a few minutes recording our previously hand-written journal onto a file we can
-put into gi
+put into git. Then we spent some time trying to get our journals on github. We updated
+and created story points on pivotal tracker, and decided what our task was to work
+on today. Worked on the Deck class together using test-driven development.

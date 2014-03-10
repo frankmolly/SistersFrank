@@ -29,4 +29,11 @@ We worked on trying to get our code onto git. We could not figure out how. Downl
 -Friday March 7th (10am-10:50am)
 I met with Dr. Ribler. Discussed stories and story points.
 
--Monday March 10th (2pm - )
+-Monday March 10th (2pm - 5pm)
+Put journals on computer, loaded onto Git.
+Loaded project onto Git.
+Created more stories in pivotal tracker.
+Updated story points, current stories we're working on, and velocity in pivotal tracker.
+Utilized pair programming on our Solitaire project. Looked over Card Class, began Deck Class.
+Used tests and asserts in C#.
+
