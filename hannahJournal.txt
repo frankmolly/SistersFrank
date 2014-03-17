@@ -37,3 +37,9 @@ Updated story points, current stories we're working on, and velocity in pivotal 
 Utilized pair programming on our Solitaire project. Looked over Card Class, began Deck Class.
 Used tests and asserts in C#.
 
+-Thursday March 13th (2-4pm)
+Read about C# in "C# and the .Net Platform" by Andrew Troelsen, Chapter 3 & some Chapter 4
+
+-Monday March 17th (4:30-5:30pm)
+Read Troelsen, Chapter 4
+
