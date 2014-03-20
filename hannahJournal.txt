@@ -43,3 +43,5 @@ Read about C# in "C# and the .Net Platform" by Andrew Troelsen, Chapter 3 & some
 -Monday March 17th (4:30-5:30pm)
 Read Troelsen, Chapter 4
 
+-Wednesday March 19th (8-9:30pm)
+Pair programming. Worked on Deck Class. Trying to make progress toward shuffle function. 
