@@ -53,3 +53,20 @@ Spent a few minutes recording our previously hand-written journal onto a file we
 put into git. Then we spent some time trying to get our journals on github. We updated
 and created story points on pivotal tracker, and decided what our task was to work
 on today. Worked on the Deck class together using test-driven development.
+
+Wednesday 3/12/14 1-2:30PM
+
+Researched some differences between C# and C++ online, because I'm having difficulty 
+with the difference.
+
+Tuesday 3/18/14 5-7PM
+
+Continued to read up on C#. Coding is going very slowly because of the lack of knowledge
+of C#. Cannot figure out how to add things to an array correctly. 
+
+Wednesday 3/19/14 8-9:30PM
+
+Spent a good half hour trying to figure out how to open any of our code that we had saved
+on git. Tried to do some more testing and pair programming tonight once we got to our code.
+Finding the differences between C# and C++ to be confusing. A lot of failed tests run, but
+not a lot of good tests accomplished.
