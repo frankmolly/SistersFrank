@@ -70,3 +70,15 @@ Spent a good half hour trying to figure out how to open any of our code that we 
 on git. Tried to do some more testing and pair programming tonight once we got to our code.
 Finding the differences between C# and C++ to be confusing. A lot of failed tests run, but
 not a lot of good tests accomplished.
+
+Thursday 3/20/14 2:15PM-3:15PM
+
+Spent time after class trying to put all the individual 52 cards into a deck. Movement
+was very slow. Dr.Ribler gave us some pointers on how to cast so we could use the enumerators.
+
+same day 7:30PM-8:45PM
+
+Tried to test the newly created deck, and tried to test our print function. Our print function
+is also a test to see if all the cards are filling into the deck properly. Next step is 
+creating the shuffle function so we can print the deck out and see the difference after it
+has been shuffled. 
