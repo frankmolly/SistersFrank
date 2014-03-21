@@ -44,4 +44,11 @@ Read about C# in "C# and the .Net Platform" by Andrew Troelsen, Chapter 3 & some
 Read Troelsen, Chapter 4
 
 -Wednesday March 19th (8-9:30pm)
-Pair programming. Worked on Deck Class. Trying to make progress toward shuffle function. 
+Pair programming: Worked on Deck Class. Trying to make progress toward shuffle function. 
+
+-Thursday March 20th(2:15-3:15)
+Pair programming: Worked on filling in a deck with 52 cards. Dr. Ribler helped us figure out casting.
+
+(7:30-8:45)
+Pair programming: Worked on seeing if a deck is actually filled with all 52 cards.
+Tried to understand why we couldn't print in C#.
