@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,6 +7,7 @@ using NUnit.Framework;
 
 namespace Solitaire350
 {
+  
     [TestFixture]
     public class TestCard
     {
@@ -27,24 +28,32 @@ namespace Solitaire350
             Card yourCard = new Card(Card.RankType.THREE, Card.SuitType.CLUBS);
             Assert.IsTrue(myCard.isEqual(yourCard));
         }
+
+        [Test]
+        public void printCard() //tests that each individual card is in deck
+        {
+            Card myCard = new Card(Card.RankType.ACE, Card.SuitType.SPADES);
+            myCard.printCard();
+        }
     }
-    
+
     [TestFixture]
     public class TestDeck
     {
          [Test]
-        public void createDeck() //tests that a deck can be created with 52 cards
+        public void createDeck() //tests that a deck can be created with ability
+                                //to hold 52 cards
         {
-            const int capacity = 52;
-            const int size = 0;
+            const int size = 52;
             Card[] newDeck = new Card[size];
             Deck myDeck = new Deck();
-            Assert.AreEqual(myDeck.capacity, capacity);
-            Assert.AreEqual(myDeck.size, size);
-            //Assert.AreEqual(myDeck.deckOfCards, newDeck); 
+            Assert.AreEqual(myDeck.size, size); 
         }
 
+        
     }
+
+    
 }
 
 
