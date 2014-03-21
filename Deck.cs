@@ -18,26 +18,22 @@ namespace Solitaire350
             {
                 for (int j = 0; j < Card.MAX_RANK; j++)
                 {
-                    deckOfCards[size] = new Card(Card.RankType., Card.SuitType.i);
+                    deckOfCards[size] = new Card((Card.RankType) j, (Card.SuitType) i);
+                    ++size;
                 }
             }
-            
+
         }
+
+        //public void printDeck()
+        //{
+        //    for(int i=0;i<size;i++)
+        //    {
+        //        Console.WriteLine("{0}", deckOfCards[i]);
+        //    }
+        //}
 
         public int size { get; private set; }
-        
-        public void addCard(Card cardToAdd)
-        {
-            if (size != CAPACITY)
-            {
-                deckOfCards[size] = cardToAdd;
-            }
-        }
-
-        /*public bool isEqual(Card rhs)
-        {
-            return (rhs.Suit == Suit && rhs.Rank == Rank);
-        }*/
 
         public Card deckOfCards { get; private set; }
        
