@@ -82,3 +82,16 @@ Tried to test the newly created deck, and tried to test our print function. Our 
 is also a test to see if all the cards are filling into the deck properly. Next step is 
 creating the shuffle function so we can print the deck out and see the difference after it
 has been shuffled. 
+
+Friday 3/21/14 5PM-6:30PM
+
+Spent some time reading more in the C# book. Contemplated changing the data structures we're
+using for our program. Also, we learned about interfaces the other day, and so tried to
+think out how we could add something like that into our program. Not sure if it's appropriate.
+
+Sunday 3/23/14 3PM-4PM
+
+Worked some more on trying to print out the Deck once the Cards have been loaded into it. Still
+not getting anywhere.
+
+
