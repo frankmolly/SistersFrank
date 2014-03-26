@@ -29,7 +29,7 @@ of tests.
 
 Wednesday 3/5/14 7PM-8:20
 
-We began officially our journal. Programmed as a pair for solitaire. We did
+We officially began our journal. Programmed as a pair for solitaire. We did
 not get far because we created vectors in our program and then decided to
 change everything to a more convenient array in our add function.
 
@@ -93,5 +93,10 @@ Sunday 3/23/14 3PM-4PM
 
 Worked some more on trying to print out the Deck once the Cards have been loaded into it. Still
 not getting anywhere.
+
+Wednesday 3/26/14 3:30-5PM
+
+Spent time working on the Deck class with an ArrayList, tried using IEnumerator, tried
+to print out the Deck class. The Deck doesn't seem to be storing Cards no matter what I do.
 
 
