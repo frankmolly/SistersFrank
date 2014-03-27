@@ -52,3 +52,11 @@ Pair programming: Worked on filling in a deck with 52 cards. Dr. Ribler helped u
 (7:30-8:45)
 Pair programming: Worked on seeing if a deck is actually filled with all 52 cards.
 Tried to understand why we couldn't print in C#.
+
+-Sunday March 23rd (3-4pm)
+Worked more on printing the deck and a single card but unsuccessful.
+
+-Wednesday March 26th (8:15-9:45pm)
+Researched more and was able to print our code with hearts, spades, clubs, and diamonds using a console app program.
+Worked on the shuffle function. Decided to write a swap function to swap two cards (needed for shuffle function). 
+Had problems with [] operator for Deck. May need to write.
