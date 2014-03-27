@@ -30,7 +30,7 @@ namespace Solitaire350
         }
 
         [Test]
-        public void printCard() //tests that each individual card is in deck
+        public void printCard() //tests our print card function
         {
             Card myCard = new Card(Card.RankType.ACE, Card.SuitType.SPADES);
             myCard.printCard();
@@ -40,22 +40,42 @@ namespace Solitaire350
     [TestFixture]
     public class TestDeck
     {
+        const int DECK_SIZE = 52;
+
          [Test]
         public void createDeck() //tests that a deck can be created with ability
                                 //to hold 52 cards
         {
-            const int size = 52;
-            Card[] newDeck = new Card[size];
+            Card[] newDeck = new Card[DECK_SIZE]; 
             Deck myDeck = new Deck();
-            Assert.AreEqual(myDeck.size, size); 
+            Assert.AreEqual(myDeck.size, DECK_SIZE);
+            Assert.Contains
         }
+
+
+         [Test]
+         public void swap()
+         {
+             Deck myDeck = new Deck();
+             Deck swappedCards = new Deck();
+             swappedCards.swap(0,1);
+             Assert.AreNotEqual(myDeck[0], swappedCards[0]);
+             Assert.AreNotEqual(myDeck[1], swappedCards[1]);
+             Assert.AreEqual(myDeck[0], swappedCards[1]);
+             Assert.AreEqual(myDeck[1], swappedCards[0]);
+         }
+
+         [Test]
+         public void shuffle() //tests to see if the cards are being randomly shuffled
+         {
+             Deck unshuffledDeck = new Deck();
+             Deck shuffledDeck = new Deck();
+             shuffledDeck.shuffle();
+             Assert.AreNotEqual(unshuffledDeck, shuffledDeck); //a shuffled and an unshuffled deck should not be equal
+         }
 
         
     }
 
     
 }
-
-
-    
-       
