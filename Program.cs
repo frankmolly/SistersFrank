@@ -1,8 +1,7 @@
 using System;
-
 using System.Collections.Generic;
-
 using System.Text;
+using System.IO;
 //using System.Collections.Generic;
 //using System.Linq;
 //using System.Threading.Tasks;
@@ -18,16 +17,8 @@ namespace Solitaire350
         [STAThread]
         public static void Main()
         {
-            //Application.EnableVisualStyles();
-            //Application.SetCompatibleTextRenderingDefault(false);
-            //Application.Run(new Form1());
-            
-
-            Console.WriteLine("Hello World");
-            Card myCard = new Card(Card.RankType.ACE, Card.SuitType.SPADES);
-            myCard.printCard();
-
-
+           
+ 
         }
     }
 }
