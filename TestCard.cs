@@ -20,6 +20,16 @@ namespace Solitaire350
             Assert.AreEqual(myCard.Rank, Card.RankType.ACE); //assert that the card's rank is equal to ace
         }
 
+        [Test]
+        public void copyCard() //tests the copy constructor for Card
+        {
+            // Create an instance of a card
+            Card myCard = new Card(Card.RankType.ACE, Card.SuitType.SPADES);
+            // Create another Card, copying myCard 
+            Card copiedCard = new Card(myCard);
+            Assert.AreEqual(myCard, copiedCard);
+        }
+
 
         [Test]
         public void equalCards() //tests that two cards of the same type and rank are the same
@@ -49,7 +59,6 @@ namespace Solitaire350
             Card[] newDeck = new Card[DECK_SIZE]; 
             Deck myDeck = new Deck();
             Assert.AreEqual(myDeck.size, DECK_SIZE);
-            Assert.Contains
         }
 
 
@@ -58,7 +67,7 @@ namespace Solitaire350
          {
              Deck myDeck = new Deck();
              Deck swappedCards = new Deck();
-             swappedCards.swap(0,1);
+             swappedCards.swap(0, 1);
              Assert.AreNotEqual(myDeck[0], swappedCards[0]);
              Assert.AreNotEqual(myDeck[1], swappedCards[1]);
              Assert.AreEqual(myDeck[0], swappedCards[1]);
