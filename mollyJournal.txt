@@ -99,4 +99,13 @@ Wednesday 3/26/14 3:30-5PM
 Spent time working on the Deck class with an ArrayList, tried using IEnumerator, tried
 to print out the Deck class. The Deck doesn't seem to be storing Cards no matter what I do.
 
+Thursday 3/27/14 7:20-820PM
+
+Turns out that the deck is storing cards. Hannah had it printing out earlier on a different 
+machine. Who knows why it wasn't working for me yesterday. We worked on a swap function
+to try to do the shuffle function again, but just like the other day it says we cannot reach
+what is in our array. I found on pg.292 in the C# book how to write the IEnumerator class, 
+which I believe is an interface, and it looks like that is exactly what I was trying to
+write the other day. I'll continue writing that in the morning.
+
 
