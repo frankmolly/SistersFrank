@@ -108,4 +108,11 @@ what is in our array. I found on pg.292 in the C# book how to write the IEnumera
 which I believe is an interface, and it looks like that is exactly what I was trying to
 write the other day. I'll continue writing that in the morning.
 
+Friday 3/28/14 10:30 - 11:20
+
+Tried to write the IEnumerator using the IEnumerable interface, but it still will not allow me 
+to call a certain index of our array so writing the thing may have been pointless. I've read
+as much as I can find about arrays of objects in this book and on the internet. I'm not sure
+where to go for this information.
+
 
