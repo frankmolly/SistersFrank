@@ -60,3 +60,9 @@ Worked more on printing the deck and a single card but unsuccessful.
 Researched more and was able to print our code with hearts, spades, clubs, and diamonds using a console app program.
 Worked on the shuffle function. Decided to write a swap function to swap two cards (needed for shuffle function). 
 Had problems with [] operator for Deck. May need to write.
+
+-Thursday March 27th (7:20-8:20pm)
+Worked with Molly on shuffle and swap functions. Mostly, tried to figure out the operator[] in our Deck class.
+Molly got an idea from the C# textbook. I am unsure if it is going to make the code too difficult, but
+it may be the perfect solution so we are going to try and implement it!
+
