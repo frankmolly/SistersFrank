@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Solitaire350
 {
-    public class Deck
+    public class Deck : IEnumerable<Card>
     {
         public const int CAPACITY = 52;
         
@@ -56,19 +56,51 @@ namespace Solitaire350
 
         public Card deckOfCards { get; private set; }
 
-        public Deck deckOfCards[int i]
+        //public Deck deckOfCards[int i]
+        //{
+        //    get
+        //    {
+        //        return deckOfCards[i];
+        //    }
+        //    private set
+        //    {
+        //        deckOfCards[i] = value;
+        //    }
+        //}
+
+        public class DeckEnumerator : IEnumerator<Deck>
         {
-            get
+            private Deck _collection;
+            private int index;
+            private Card someCard;
+
+            public DeckEnumerator(Deck collection)
             {
-                return deckOfCards[i];
+                _collection = collection;
+                index = -1;
+                someCard = default(Card);
             }
-            private set
+
+            public bool MoveNext()
             {
-                deckOfCards[i] = value;
+                someCard = _collection.Count();
+
+                return someCard != null;
+            }
+
+            public void Reset() { index = -1; }
+
+            void IDisposable.Dispose() { }
+
+            public Card Current
+            {
+                get { return index; }
+            }
+
+            object IEnumerator<Deck>.Current
+            {
+                get { return Current; }
             }
         }
-       
-        
-
     }
 }
