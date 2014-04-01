@@ -66,7 +66,7 @@ Worked with Molly on shuffle and swap functions. Mostly, tried to figure out the
 Molly got an idea from the C# textbook. I am unsure if it is going to make the code too difficult, but
 it may be the perfect solution so we are going to try and implement it!
 
--Monday March 31st (7-8) & (9-10)
+-Monday March 31st (7-8) & (9-11:30)
 Tried putting the cards into a list instead of an array. Tried writing the operator[]. 
 Tried lots of different ways that didn't work.
 
