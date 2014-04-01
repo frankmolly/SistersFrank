@@ -116,3 +116,9 @@ as much as I can find about arrays of objects in this book and on the internet. 
 where to go for this information.
 
 
+Monday 3/31/14 6-8PM
+
+Tried putting the cards into a list tonight to see if we could get to them by index. When that
+didn't work I tried changing the enums to be strings, since it continues to say that we cannot
+reach the Cards because they are not strings. That didn't work. We're planning on asking for
+help pretty soon because we haven't gotten anywhere yet.
