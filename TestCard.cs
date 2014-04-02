@@ -61,18 +61,25 @@ namespace Solitaire350
             Assert.AreEqual(myDeck.size, DECK_SIZE);
         }
 
-
          [Test]
-         public void swap()
+         public void overrideDeckBrackets()//to test the Deck's [] operator
          {
              Deck myDeck = new Deck();
-             Deck swappedCards = new Deck();
-             swappedCards.swap(0, 1);
-             Assert.AreNotEqual(myDeck[0], swappedCards[0]);
-             Assert.AreNotEqual(myDeck[1], swappedCards[1]);
-             Assert.AreEqual(myDeck[0], swappedCards[1]);
-             Assert.AreEqual(myDeck[1], swappedCards[0]);
+             Card myCard = new Card(Card.RankType.ACE, Card.SuitType.HEARTS);
+             Assert.IsTrue(myCard.isEqual(myDeck[0]));
          }
+
+         //[Test]
+         //public void swap()
+         //{
+         //    Deck myDeck = new Deck();
+         //    Deck swappedCards = new Deck();
+         //    swappedCards.swap(0, 1);
+         //    Assert.AreNotEqual(myDeck[0], swappedCards[0]);
+         //    Assert.AreNotEqual(myDeck[1], swappedCards[1]);
+         //    Assert.AreEqual(myDeck[0], swappedCards[1]);
+         //    Assert.AreEqual(myDeck[1], swappedCards[0]);
+         //}
 
          [Test]
          public void shuffle() //tests to see if the cards are being randomly shuffled
@@ -88,3 +95,7 @@ namespace Solitaire350
 
     
 }
+
+
+    
+       
