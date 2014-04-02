@@ -20,6 +20,13 @@ namespace Solitaire350
             Suit = suit;
         }
 
+        //copy constructor
+        public Card(Card orig)
+        {
+            Rank = orig.Rank;
+            Suit = orig.Suit;
+        }
+
         public bool isEqual(Card rhs)
         {
             return (rhs.Suit == Suit && rhs.Rank == Rank);
