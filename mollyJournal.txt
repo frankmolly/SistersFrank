@@ -122,3 +122,15 @@ Tried putting the cards into a list tonight to see if we could get to them by in
 didn't work I tried changing the enums to be strings, since it continues to say that we cannot
 reach the Cards because they are not strings. That didn't work. We're planning on asking for
 help pretty soon because we haven't gotten anywhere yet.
+
+Tuesday 4/1/14 2:10-2:15PM
+
+Ribler showed us what our problem was with declaring the array of cards too many times! We are
+saved. 
+
+Wednesday 4/2/14 5:30-6:30
+
+Saved the fix that Ribler showed us yesterday. Wrote the overriding bracket operator for the
+Deck class. Fixed the shuffle function that had already been written so that it compiled, and 
+during that figured out how to use the random number generator in C#. That should come in handy.
+
