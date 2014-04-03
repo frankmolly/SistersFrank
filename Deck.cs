@@ -10,18 +10,19 @@ namespace Solitaire350
     public class Deck
     {
         public const int CAPACITY = 52;
-        
+
+        private Card[] deckOfCards_ = new Card[CAPACITY];
 
         public Deck()
         {
             size = 0;
-            //Card[] deckOfCards = new Card[CAPACITY];
+            
 
             for (int i = 0; i < Card.MAX_SUIT; i++)
             {
                 for (int j = 0; j < Card.MAX_RANK; j++)
                 {
-                    deckOfCards[size] = new Card((Card.RankType) j, (Card.SuitType) i);
+                    deckOfCards_[size] = new Card((Card.RankType) j, (Card.SuitType) i);
                     size += 1;
                 }
             }
@@ -71,6 +72,8 @@ namespace Solitaire350
 
         public Card[] deckOfCards { get; private set; }
 
-       
+        
+        
+
     }
 }
