@@ -17,8 +17,13 @@ namespace Solitaire350
         [STAThread]
         public static void Main()
         {
-           
- 
+            Deck unshuffledDeck = new Deck();
+            Deck shuffledDeck = new Deck();
+            shuffledDeck.shuffle();
+            unshuffledDeck.printDeck();
+            shuffledDeck.printDeck();
+
+            Console.ReadLine();
         }
     }
 }
