@@ -134,3 +134,15 @@ Saved the fix that Ribler showed us yesterday. Wrote the overriding bracket oper
 Deck class. Fixed the shuffle function that had already been written so that it compiled, and 
 during that figured out how to use the random number generator in C#. That should come in handy.
 
+Thursday 4/3/14 10-11AM
+
+Added a testing function for printing out a full deck, rather than just a card. Tried to run 
+the program and even though the tests were passing the program was breaking. It seems that the
+deck of cards is still not filling correctly and when it tries to put the first card in, the deck
+is pointing at null and it breaks. 
+
+same day 11AM
+
+Met with Dr. Ribler, and he wants us to break up the story about creating the visual stuff into
+multiple stories. He also thinks we should create visual cards and decks as we write the code for
+them. We plan on meeting later tonight to start this.
