@@ -17,13 +17,12 @@ namespace Solitaire350
         {
             size = 0;
             
-
             for (int i = 0; i < Card.MAX_SUIT; i++)
             {
                 for (int j = 0; j < Card.MAX_RANK; j++)
                 {
                     deckOfCards_[size] = new Card((Card.RankType) j, (Card.SuitType) i);
-                    size += 1;
+                    size++;
                 }
             }
 
@@ -32,8 +31,9 @@ namespace Solitaire350
         //swaps the position of two cards in the deck
         public void swap(int lhs, int rhs)
         {
-            Card tempCard = new Card(deckOfCards[lhs]);
-
+            Card tempCard = new Card(deckOfCards_[lhs]);
+            deckOfCards_[lhs] = deckOfCards_[rhs];
+            deckOfCards_[rhs] = tempCard;
         }
 
         //overrides [] operator for Deck
@@ -41,22 +41,21 @@ namespace Solitaire350
         {
             get
             {
-                return deckOfCards[index];
+                return deckOfCards_[index];
             }
             set
             {
-                deckOfCards[index] = value;
+                deckOfCards_[index] = value;
             }
         }
 
         public void shuffle()
         {
-            Deck shuffledDeck = new Deck();
             Random randomNumber = new Random();
             
-            for (int card = 0; card < Deck.CAPACITY; ++card)
+            for (int card = 0; card < CAPACITY; ++card)
             {
-                deckOfCards[card] = deckOfCards[randomNumber.Next(CAPACITY)];
+                swap(card, randomNumber.Next(CAPACITY));
             }
         }
 
@@ -64,13 +63,13 @@ namespace Solitaire350
         {
             for(int i=0;i<size;i++)
             {
-                Console.WriteLine("{0}", deckOfCards[i]);
+                Console.WriteLine("{0}", deckOfCards_[i]);
             }
         }
 
         public int size { get; private set; }
 
-        public Card[] deckOfCards { get; private set; }
+        //public Card[] deckOfCards_ { get; private set; }
 
         
         
