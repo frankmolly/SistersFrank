@@ -146,3 +146,10 @@ same day 11AM
 Met with Dr. Ribler, and he wants us to break up the story about creating the visual stuff into
 multiple stories. He also thinks we should create visual cards and decks as we write the code for
 them. We plan on meeting later tonight to start this.
+
+same day 1:30-2:30PM
+
+Dr. Ribler showed Hannah and I how to work a little bit with the UI for Solitaire. We also realized
+that our shuffle function might be replacing cards we don't want it to, so we need to put the
+swap function back in. We also wrote a couple stories that he had asked us to, but we need to 
+finish changing some tasks into their own stories.
