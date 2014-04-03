@@ -69,18 +69,6 @@ namespace Solitaire350
              Assert.IsTrue(myCard.isEqual(myDeck[0]));
          }
 
-         //[Test]
-         //public void swap()
-         //{
-         //    Deck myDeck = new Deck();
-         //    Deck swappedCards = new Deck();
-         //    swappedCards.swap(0, 1);
-         //    Assert.AreNotEqual(myDeck[0], swappedCards[0]);
-         //    Assert.AreNotEqual(myDeck[1], swappedCards[1]);
-         //    Assert.AreEqual(myDeck[0], swappedCards[1]);
-         //    Assert.AreEqual(myDeck[1], swappedCards[0]);
-         //}
-
          [Test]
          public void shuffle() //tests to see if the cards are being randomly shuffled
          {
@@ -88,6 +76,16 @@ namespace Solitaire350
              Deck shuffledDeck = new Deck();
              shuffledDeck.shuffle();
              Assert.AreNotEqual(unshuffledDeck, shuffledDeck); //a shuffled and an unshuffled deck should not be equal
+         }
+
+         [Test]
+         public void printDeck() //tests our print deck function
+         {
+             Deck unshuffledDeck = new Deck();
+             Deck shuffledDeck = new Deck();
+             shuffledDeck.shuffle();
+             unshuffledDeck.printDeck();
+             shuffledDeck.printDeck();
          }
 
         
