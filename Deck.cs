@@ -22,7 +22,7 @@ namespace Solitaire350
                 for (int j = 0; j < Card.MAX_RANK; j++)
                 {
                     deckOfCards[size] = new Card((Card.RankType) j, (Card.SuitType) i);
-                    ++size;
+                    size += 1;
                 }
             }
 
@@ -71,19 +71,6 @@ namespace Solitaire350
 
         public Card[] deckOfCards { get; private set; }
 
-        //public Deck deckOfCards[int i]
-        //{
-        //    get
-        //    {
-        //        return deckOfCards[i];
-        //    }
-        //    private set
-        //    {
-        //        deckOfCards[i] = value;
-        //    }
-        //}
        
-        
-
     }
 }
