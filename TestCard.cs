@@ -27,9 +27,20 @@ namespace Solitaire350
             Card myCard = new Card(Card.RankType.ACE, Card.SuitType.SPADES);
             // Create another Card, copying myCard 
             Card copiedCard = new Card(myCard);
-            Assert.AreEqual(myCard, copiedCard);
+            Assert.IsTrue(myCard.isEqual(copiedCard));
         }
 
+        [Test]
+        public void assignCard() //tests the assignment operator for Card
+        {
+            //create instance of a card
+            Card myCard = new Card(Card.RankType.ACE, Card.SuitType.SPADES);
+            //create another instance of a card
+            Card assignedCard = new Card(Card.RankType.KING, Card.SuitType.HEARTS);
+            //set one equal to another to test assignment operator
+            assignedCard = myCard;
+            Assert.IsTrue(myCard.isEqual(assignedCard));
+        }
 
         [Test]
         public void equalCards() //tests that two cards of the same type and rank are the same
@@ -68,6 +79,14 @@ namespace Solitaire350
              Card myCard = new Card(Card.RankType.ACE, Card.SuitType.HEARTS);
              Assert.IsTrue(myCard.isEqual(myDeck[0]));
          }
+         [Test]
+         public void swap() //tests our swap function
+         {
+             Deck myDeck = new Deck();
+             Card myCard = new Card(Card.RankType.ACE, Card.SuitType.HEARTS);
+             myDeck.swap(0, 10);
+             Assert.IsTrue(myCard.isEqual(myDeck[10]));
+         }
 
          [Test]
          public void shuffle() //tests to see if the cards are being randomly shuffled
@@ -87,8 +106,7 @@ namespace Solitaire350
              unshuffledDeck.printDeck();
              shuffledDeck.printDeck();
          }
-
-        
+   
     }
 
     
