@@ -153,3 +153,10 @@ Dr. Ribler showed Hannah and I how to work a little bit with the UI for Solitair
 that our shuffle function might be replacing cards we don't want it to, so we need to put the
 swap function back in. We also wrote a couple stories that he had asked us to, but we need to 
 finish changing some tasks into their own stories.
+
+Sunday 4/6/14 12:45-3PM
+
+Today we worked on the playing board and the card instance visuals. We made tests for and implemented
+these visual objects, but then IntelliSense stopped working and we were having difficulty coding
+because we couldn't figure out which methods we could use. We also updated everything on gitHub,
+and created new directories for our visual code and our non-visual code. 
