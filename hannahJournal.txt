@@ -70,3 +70,15 @@ it may be the perfect solution so we are going to try and implement it!
 Tried putting the cards into a list instead of an array. Tried writing the operator[]. 
 Tried lots of different ways that didn't work.
 
+-Wednesday April 2nd (5-6:30pm)
+Wrote the bracket operator for Deck. Fixed the shuffle function accordingly.
+
+-Thursday April 3rd (10-11am)
+Realized that a deck of cards isn't filling in correctly still. 
+
+(1:30pm-2:30pm)
+Dr. Ribler, Molly, and I created the new project for the UI for Solitaire.
+Also, figured out that shuffle isn't working properly. Fixed swap function.
+Molly and I broke down some UI stories into multiple stories in pivotal tracker.
+
+
