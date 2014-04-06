@@ -81,4 +81,8 @@ Dr. Ribler, Molly, and I created the new project for the UI for Solitaire.
 Also, figured out that shuffle isn't working properly. Fixed swap function.
 Molly and I broke down some UI stories into multiple stories in pivotal tracker.
 
+-Sunday April 6th (12:45pm-3pm)
+Molly and I made the background of Solitaire green. Created an instance of a card. 
+Intellisense stopped working randomly and it was difficult to continue coding.
+I am beginning to understand the UI coding.
 
