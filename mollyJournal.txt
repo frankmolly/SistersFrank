@@ -160,3 +160,8 @@ Today we worked on the playing board and the card instance visuals. We made test
 these visual objects, but then IntelliSense stopped working and we were having difficulty coding
 because we couldn't figure out which methods we could use. We also updated everything on gitHub,
 and created new directories for our visual code and our non-visual code. 
+
+Tuesday 4/8/14 1-2:15PM
+
+Worked on testing the stock pile, created tests for the foundation place holders, and then created the
+foundation place holders. 
