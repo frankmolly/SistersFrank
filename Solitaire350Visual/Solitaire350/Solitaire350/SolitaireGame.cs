@@ -18,6 +18,8 @@ namespace Solitaire350
             //Paint += SolitaireGame_Paint;
         }
 
+      
+
         //void SolitaireGame_Paint(object sender, PaintEventArgs e)
         //{
         //    Graphics graphics = e.Graphics;
