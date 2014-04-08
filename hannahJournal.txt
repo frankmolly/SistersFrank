@@ -86,3 +86,6 @@ Molly and I made the background of Solitaire green. Created an instance of a car
 Intellisense stopped working randomly and it was difficult to continue coding.
 I am beginning to understand the UI coding.
 
+-Tuesday April 8th (1-2:15pm)
+Molly and I wrote tests for the stock pile and each foundation pile and then created these in the UI.
+
