@@ -18,6 +18,18 @@ namespace Solitaire350
             //Paint += SolitaireGame_Paint;
         }
 
+        private void SolitaireGame_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+       
+
       
 
         //void SolitaireGame_Paint(object sender, PaintEventArgs e)

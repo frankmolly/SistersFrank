@@ -22,3 +22,15 @@ C:\Users\frank_m\Desktop\SistersFrank-master\SistersFrank-master\Solitaire350Vis
 C:\Users\frank_m\Desktop\SistersFrank-master\SistersFrank-master\Solitaire350Visual\Solitaire350\Solitaire350\obj\Debug\Solitaire350.SolitaireGame.resources
 C:\Users\frank_m\Desktop\SistersFrank-master\SistersFrank-master\Solitaire350Visual\Solitaire350\Solitaire350\obj\Debug\Solitaire350.csproj.GenerateResource.Cache
 C:\Users\frank_m\Desktop\SistersFrank-master\SistersFrank-master\Solitaire350Visual\Solitaire350\Solitaire350\obj\Debug\Solitaire350.pdb
+C:\Users\frank_h\Desktop\SistersFrank-master\SistersFrank-master\Solitaire350Visual\Solitaire350\Solitaire350\bin\Debug\Solitaire350.exe.config
+C:\Users\frank_h\Desktop\SistersFrank-master\SistersFrank-master\Solitaire350Visual\Solitaire350\Solitaire350\obj\Debug\Solitaire350.exe
+C:\Users\frank_h\Desktop\SistersFrank-master\SistersFrank-master\Solitaire350Visual\Solitaire350\Solitaire350\obj\Debug\Solitaire350.pdb
+C:\Users\frank_h\Desktop\SistersFrank-master\SistersFrank-master\Solitaire350Visual\Solitaire350\Solitaire350\obj\Debug\Solitaire350.csprojResolveAssemblyReference.cache
+C:\Users\frank_h\Desktop\SistersFrank-master\SistersFrank-master\Solitaire350Visual\Solitaire350\Solitaire350\obj\Debug\Solitaire350.Properties.Resources.resources
+C:\Users\frank_h\Desktop\SistersFrank-master\SistersFrank-master\Solitaire350Visual\Solitaire350\Solitaire350\obj\Debug\Solitaire350.SolitaireGame.resources
+C:\Users\frank_h\Desktop\SistersFrank-master\SistersFrank-master\Solitaire350Visual\Solitaire350\Solitaire350\obj\Debug\Solitaire350.csproj.GenerateResource.Cache
+C:\Users\frank_h\Desktop\SistersFrank-master\SistersFrank-master\Solitaire350Visual\Solitaire350\Solitaire350\bin\Debug\Solitaire350.exe
+C:\Users\frank_h\Desktop\SistersFrank-master\SistersFrank-master\Solitaire350Visual\Solitaire350\Solitaire350\bin\Debug\Solitaire350.pdb
+C:\Users\frank_h\Desktop\SistersFrank-master\SistersFrank-master\Solitaire350Visual\Solitaire350\Solitaire350\bin\Debug\nunit.framework.dll
+C:\Users\frank_h\Desktop\SistersFrank-master\SistersFrank-master\Solitaire350Visual\Solitaire350\Solitaire350\bin\Debug\nunit.mocks.dll
+C:\Users\frank_h\Desktop\SistersFrank-master\SistersFrank-master\Solitaire350Visual\Solitaire350\Solitaire350\bin\Debug\nunit.framework.xml
