@@ -89,6 +89,6 @@ I am beginning to understand the UI coding.
 -Tuesday April 8th (1-2:15pm)
 Molly and I wrote tests for the stock pile and each foundation pile and then created these in the UI.
 
-Thursday 4/10/14 3:30-5
+-Thursday April 10th (3:30-5)
 Molly and I worked on displaying the stock pile and foundation piles today. Began a "design talk" like the one
 that Dr.Ribler showed us in class today.
