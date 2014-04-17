@@ -41,3 +41,14 @@ C:\Users\hanna_000\Dropbox\CS350\Solitaire350\Solitaire350\Solitaire350\bin\Debu
 C:\Users\hanna_000\Dropbox\CS350\Solitaire350\Solitaire350\Solitaire350\obj\Debug\Solitaire350.csprojResolveAssemblyReference.cache
 C:\Users\hanna_000\Dropbox\CS350\Solitaire350\Solitaire350\Solitaire350\obj\Debug\Solitaire350.exe
 C:\Users\hanna_000\Dropbox\CS350\Solitaire350\Solitaire350\Solitaire350\obj\Debug\Solitaire350.pdb
+C:\Users\hanna_000\Desktop\SistersFrank-master (5)\SistersFrank-master\Solitaire350\Solitaire350\Solitaire350\bin\Debug\Solitaire350.exe.config
+C:\Users\hanna_000\Desktop\SistersFrank-master (5)\SistersFrank-master\Solitaire350\Solitaire350\Solitaire350\obj\Debug\Solitaire350.exe
+C:\Users\hanna_000\Desktop\SistersFrank-master (5)\SistersFrank-master\Solitaire350\Solitaire350\Solitaire350\obj\Debug\Solitaire350.pdb
+C:\Users\hanna_000\Desktop\SistersFrank-master (5)\SistersFrank-master\Solitaire350\Solitaire350\Solitaire350\bin\Debug\Solitaire350.exe
+C:\Users\hanna_000\Desktop\SistersFrank-master (5)\SistersFrank-master\Solitaire350\Solitaire350\Solitaire350\bin\Debug\Solitaire350.pdb
+C:\Users\hanna_000\Desktop\SistersFrank-master (5)\SistersFrank-master\Solitaire350\Solitaire350\Solitaire350\bin\Debug\nunit.framework.dll
+C:\Users\hanna_000\Desktop\SistersFrank-master (5)\SistersFrank-master\Solitaire350\Solitaire350\Solitaire350\bin\Debug\nunit.framework.xml
+C:\Users\hanna_000\Desktop\SistersFrank-master (5)\SistersFrank-master\Solitaire350\Solitaire350\Solitaire350\obj\Debug\Solitaire350.csprojResolveAssemblyReference.cache
+C:\Users\hanna_000\Desktop\SistersFrank-master (5)\SistersFrank-master\Solitaire350\Solitaire350\Solitaire350\obj\Debug\Solitaire350.Form1.resources
+C:\Users\hanna_000\Desktop\SistersFrank-master (5)\SistersFrank-master\Solitaire350\Solitaire350\Solitaire350\obj\Debug\Solitaire350.Properties.Resources.resources
+C:\Users\hanna_000\Desktop\SistersFrank-master (5)\SistersFrank-master\Solitaire350\Solitaire350\Solitaire350\obj\Debug\Solitaire350.csproj.GenerateResource.Cache

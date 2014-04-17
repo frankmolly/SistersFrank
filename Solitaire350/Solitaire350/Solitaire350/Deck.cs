@@ -15,14 +15,14 @@ namespace Solitaire350
 
         public Deck()
         {
-            size = 0;
+            size_ = 0;
 
             for (int i = 0; i < Card.MAX_SUIT; i++)
             {
                 for (int j = 0; j < Card.MAX_RANK; j++)
                 {
-                    deckOfCards_[size] = new Card((Card.RankType)j, (Card.SuitType)i);
-                    size++;
+                    deckOfCards_[size_] = new Card((Card.RankType)j, (Card.SuitType)i);
+                    size_++;
                 }
             }
 
@@ -61,13 +61,26 @@ namespace Solitaire350
 
         public void printDeck()
         {
-            for (int i = 0; i < size; i++)
+            for (int i = 0; i < size_; i++)
             {
                 Console.WriteLine("{0}", deckOfCards_[i]);
             }
         }
 
-        public int size { get; private set; }
+        public Card top()
+        {
+            if (size_ > 0)
+                return deckOfCards_[size_ - 1];
+            else
+                return null;
+        }
+
+        public void pop()
+        {
+            if (size_ > 0)
+                size_--;   
+        }
+        public int size_ { get; private set; }
 
         //public Card[] deckOfCards_ { get; private set; }
 

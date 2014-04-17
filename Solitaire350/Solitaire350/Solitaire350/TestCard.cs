@@ -69,7 +69,7 @@ namespace Solitaire350
         {
             Card[] newDeck = new Card[DECK_SIZE];
             Deck myDeck = new Deck();
-            Assert.AreEqual(myDeck.size, DECK_SIZE);
+            Assert.AreEqual(myDeck.size_, DECK_SIZE);
         }
 
         [Test]
@@ -107,8 +107,27 @@ namespace Solitaire350
             shuffledDeck.printDeck();
         }
 
-    }
+        //Tests the top function
+        [Test]
+        public void returnTopCard()
+        {
+            Deck myDeck = new Deck();
+            Assert.AreEqual(myDeck.top(), myDeck[DECK_SIZE - 1]);
+            myDeck.shuffle();
+        }
 
+        //Tests the pop function
+        [Test]
+        public void popTopCard()
+        {
+            Deck myDeck = new Deck();
+            Card LastCard = new Card(Card.RankType.KING, Card.SuitType.SPADES);
+            Assert.AreEqual(myDeck.top(), LastCard, "Last card is not correct 1");
+            myDeck.pop();
+            Assert.AreNotEqual(myDeck.top(), LastCard, "Last card is not correct 2");
+        }
+    }
+        
 }
 
 
