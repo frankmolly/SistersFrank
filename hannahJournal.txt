@@ -98,3 +98,7 @@ Wrote 2 tests and functions for deck. top() which will return what is on the top
 And pop() which will remove what is on top of the deck. May need to change. Trying to prepare to write
 the deal function which will involve removing the cards from the deck and placing them in the tableau.
 Also, tried to brainstorm ideas involving the future interface for our project.
+
+-Thursday April 17th (1:50-2:15pm)
+Created a Model-View Controller Design Spec. with Molly and showed it to Dr. Ribler.
+He approved and we typed it up and put it into github.
