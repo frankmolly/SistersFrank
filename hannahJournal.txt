@@ -87,8 +87,14 @@ Intellisense stopped working randomly and it was difficult to continue coding.
 I am beginning to understand the UI coding.
 
 -Tuesday April 8th (1-2:15pm)
-Molly and I wrote tests for the stock pile and each foundation pile and then created these in the UI.
+Molly and I wrote tests for the tock pile and each foundation pile and then created these in the UI.
 
 -Thursday April 10th (3:30-5)
 Molly and I worked on displaying the stock pile and foundation piles today. Began a "design talk" like the one
 that Dr.Ribler showed us in class today.
+
+-Wednesday April 16th (9:30pm-11:15pm)
+Wrote 2 tests and functions for deck. top() which will return what is on the top of the deck.
+And pop() which will remove what is on top of the deck. May need to change. Trying to prepare to write
+the deal function which will involve removing the cards from the deck and placing them in the tableau.
+Also, tried to brainstorm ideas involving the future interface for our project.
