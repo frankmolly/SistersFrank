@@ -169,8 +169,12 @@ foundation place holders.
 
 Thursday 4/10/14 3:30-4:45
 
-
-
 Worked on displaying the stock pile and foundation piles today. We started a "design talk" like the one
 that Dr.Ribler showed us in class today. We will probably need to wait until the next lecture before
 we fully understand what the "controller" does. 
+
+Wednesday 4/16/14 9:30-11:15PM
+
+Wrote a few tests and functions for deck, but they may need some work. We need them in order to work
+with the cards going from the deck to the tableau. Still working on an idea for the "interface" for 
+the whole project.
