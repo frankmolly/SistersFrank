@@ -178,3 +178,8 @@ Wednesday 4/16/14 9:30-11:15PM
 Wrote a few tests and functions for deck, but they may need some work. We need them in order to work
 with the cards going from the deck to the tableau. Still working on an idea for the "interface" for 
 the whole project.
+
+Thursday 4/17/14 1:50-2:15
+
+We drew up a model-view controller diagram and had it approved by Dr.Ribler. We then put it on the computer 
+to submit it here on github with the rest of our work so we can keep track of it.
