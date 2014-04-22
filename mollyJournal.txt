@@ -183,3 +183,7 @@ Thursday 4/17/14 1:50-2:15
 
 We drew up a model-view controller diagram and had it approved by Dr.Ribler. We then put it on the computer 
 to submit it here on github with the rest of our work so we can keep track of it.
+
+Tuesday April 22nd 10AM-12:15PM
+Implemented a few interfaces that we may need to test the deal function. Worked on shuffle for the deck. 
+Added tableau piles class and began testing and creating the tableau piles.
