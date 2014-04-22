@@ -9,7 +9,7 @@ namespace Solitaire350
 {
 
     [TestFixture]
-    public class TestCard
+    public class TestCardandDeck
     {
         [Test]
         public void createCard() //tests that a card can be created of a designated suit and rank
@@ -121,11 +121,15 @@ namespace Solitaire350
         public void popTopCard()
         {
             Deck myDeck = new Deck();
+            Assert.AreEqual(myDeck.size_, 52);
             Card LastCard = new Card(Card.RankType.KING, Card.SuitType.SPADES);
-            Assert.AreEqual(myDeck.top(), LastCard, "Last card is not correct 1");
-            myDeck.pop();
-            Assert.AreNotEqual(myDeck.top(), LastCard, "Last card is not correct 2");
+            Assert.AreEqual(myDeck.top().Suit, LastCard.Suit, "Last card suit is not correct 1");
+            Assert.AreEqual(myDeck.top().Rank, LastCard.Rank, "Last card rank is not correct 1");
+            myDeck.pop(); //now last card is queen of spades
+            Assert.AreEqual(myDeck.top().Suit, LastCard.Suit, "Last card Suit is not correct 2"); //suit is the same
+            Assert.AreNotEqual(myDeck.top().Rank, LastCard.Rank, "Last card Rank is not correct 2"); //rank is not the same
         }
+
     }
         
 }

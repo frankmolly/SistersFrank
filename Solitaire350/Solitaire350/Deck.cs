@@ -69,8 +69,8 @@ namespace Solitaire350
 
         public Card top()
         {
-            if (size_ > 0)
-                return deckOfCards_[size_ - 1];
+            if (size_ > 0) //if there are cards in our deck
+                return deckOfCards_[size_ - 1]; //the top one is the last one put into the deck
             else
                 return null;
         }
