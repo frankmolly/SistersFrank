@@ -1,15 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 namespace Solitaire350
 {
-    //Every Card has a suit and a rank
-    /*public interface ICard : ICloneable, IEquatable<Card>
+    interface ICard
     {
-        ICard getRank { get; }
-        ICard getSuit { get; }
-    }*/
+        bool isEqual(Card rhs);
+        void printCard();
+        Card.RankType Rank { get; }
+        Card.SuitType Suit { get; }
+    }
 }

@@ -28,32 +28,36 @@ namespace Solitaire350
         private Card[,] Piles_ = new Card[Card.MAX_RANK, 52]; //Piles_ is a private data member 
                                                               //which is a 2D Array of cards
 
-        //add card to a tableau pile
+        /// <summary>
+        /// Add Card to Tableau Pile
+        /// </summary>
+        /// <param name="cardToAdd">card to add</param>
+        /// <param name="whichPile">while pile to add to</param>
         public void AddCardToPile(Card cardToAdd, int whichPile)
         {
-            Card NULLCARD = new Card(Card.RankType.NULLRANK, Card.SuitType.NULLSUIT);
-            int currentCard = 0;
-            //Find the top of that pile
-            while (!(NULLCARD.isEqual(Piles_[currentCard, whichPile])))
+            if (whichPile < howManyPiles_)
             {
-                ++currentCard;
-            }
+                Card NULLCARD = new Card(Card.RankType.NULLRANK, Card.SuitType.NULLSUIT);
+                int currentCard = 0;
+                //Find the top of that pile
+                while (!(NULLCARD.isEqual(Piles_[currentCard, whichPile])))
+                {
+                    ++currentCard;
+                }
 
-            Piles_[currentCard,whichPile] = new Card(cardToAdd); //place card in that spot
+                Piles_[currentCard, whichPile-1] = new Card(cardToAdd); //place card in that spot
+            }
         }
 
-        //overrides [] operator for TableauPiles
-        public TableauPiles this[int numOfCardInPile, int PileNum]
+        /// <summary>
+        /// Get a card from a particular pile on the Tableau
+        /// </summary>
+        /// <param name="numOfCardInPile">which card in the pile</param>
+        /// <param name="PileNum">while pile</param>
+        /// <returns></returns>
+        public Card getCardFromPile(int numOfCardInPile, int PileNum)
         {
-            get
-            {
-                Card retCard = new Card(Piles_[numOfCardInPile, PileNum]);
-                return retCard;
-            }
-            set
-            {
-                Piles_[numOfCardInPile, PileNum] = value;
-            }
+            return Piles_[numOfCardInPile-1, PileNum-1];
         }
 
         public int howManyPiles_ { get; private set; }

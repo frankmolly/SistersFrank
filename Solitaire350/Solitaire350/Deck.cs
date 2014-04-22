@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Solitaire350
 {
 
-    public class Deck
+    public class Deck : Solitaire350.IDeck
     {
         public const int CAPACITY = 52;
 
@@ -81,11 +81,6 @@ namespace Solitaire350
                 size_--;   
         }
         public int size_ { get; private set; }
-
-        //public Card[] deckOfCards_ { get; private set; }
-
-
-
 
     }
 }

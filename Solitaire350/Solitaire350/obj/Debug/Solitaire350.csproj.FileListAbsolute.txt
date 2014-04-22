@@ -52,3 +52,6 @@ C:\Users\hanna_000\Desktop\SistersFrank-master (5)\SistersFrank-master\Solitaire
 C:\Users\hanna_000\Desktop\SistersFrank-master (5)\SistersFrank-master\Solitaire350\Solitaire350\Solitaire350\obj\Debug\Solitaire350.Form1.resources
 C:\Users\hanna_000\Desktop\SistersFrank-master (5)\SistersFrank-master\Solitaire350\Solitaire350\Solitaire350\obj\Debug\Solitaire350.Properties.Resources.resources
 C:\Users\hanna_000\Desktop\SistersFrank-master (5)\SistersFrank-master\Solitaire350\Solitaire350\Solitaire350\obj\Debug\Solitaire350.csproj.GenerateResource.Cache
+C:\Users\frank_h\Desktop\SistersFrank-master\SistersFrank-master\Solitaire350\Solitaire350\obj\Debug\Solitaire350.Form1.resources
+C:\Users\frank_h\Desktop\SistersFrank-master\SistersFrank-master\Solitaire350\Solitaire350\obj\Debug\Solitaire350.Properties.Resources.resources
+C:\Users\frank_h\Desktop\SistersFrank-master\SistersFrank-master\Solitaire350\Solitaire350\obj\Debug\Solitaire350.csproj.GenerateResource.Cache

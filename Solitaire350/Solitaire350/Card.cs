@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Solitaire350
 {
 
-    public class Card //: ICard
+    public class Card : Solitaire350.ICard
     {
         public const int MAX_SUIT = 4;
         public const int MAX_RANK = 13;
