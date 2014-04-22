@@ -102,3 +102,14 @@ Also, tried to brainstorm ideas involving the future interface for our project.
 -Thursday April 17th (1:50-2:15pm)
 Created a Model-View Controller Design Spec. with Molly and showed it to Dr. Ribler.
 He approved and we typed it up and put it into github.
+
+-Monday April 21st (11-11:30pm)
+Looked through dots and boxes code to try and understand more how interfaces would benefit
+our Solitaire Game. Sketched out (more in detail than last Thursday) ideas of interfaces for Solitaire
+and the functions that would be in each.
+
+-Tuesday April 22nd (10am-12:15pm)
+Worked on implementing some interfaces but didn't know a few things that the interface should inherit from.
+(IComparable? Stuff like that.) Worked again on the shuffle function for Deck.
+Decided to add tableauPiles class and began testing and creating the tableauPiles.
+
