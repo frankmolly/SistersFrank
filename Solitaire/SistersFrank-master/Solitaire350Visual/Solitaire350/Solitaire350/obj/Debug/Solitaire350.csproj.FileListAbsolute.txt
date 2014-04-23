@@ -34,3 +34,6 @@ C:\Users\frank_h\Desktop\SistersFrank-master\SistersFrank-master\Solitaire350Vis
 C:\Users\frank_h\Desktop\SistersFrank-master\SistersFrank-master\Solitaire350Visual\Solitaire350\Solitaire350\bin\Debug\nunit.framework.dll
 C:\Users\frank_h\Desktop\SistersFrank-master\SistersFrank-master\Solitaire350Visual\Solitaire350\Solitaire350\bin\Debug\nunit.mocks.dll
 C:\Users\frank_h\Desktop\SistersFrank-master\SistersFrank-master\Solitaire350Visual\Solitaire350\Solitaire350\bin\Debug\nunit.framework.xml
+C:\Users\frank_m\Desktop\Solitaire\SistersFrank-master\Solitaire350Visual\Solitaire350\Solitaire350\bin\Debug\Solitaire350.exe.config
+C:\Users\frank_m\Desktop\Solitaire\SistersFrank-master\Solitaire350Visual\Solitaire350\Solitaire350\obj\Debug\Solitaire350.exe
+C:\Users\frank_m\Desktop\Solitaire\SistersFrank-master\Solitaire350Visual\Solitaire350\Solitaire350\obj\Debug\Solitaire350.pdb
