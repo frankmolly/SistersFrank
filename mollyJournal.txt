@@ -194,3 +194,10 @@ same day 7-8:45PM
 Tried to create a SolitaireModel class and ISolitaireModel interface so we could test the dealing of the
 cards with the interface. We also tried to combine the non-visual code with the visual code. We're running
 into a few hiccups, but we'll continue trying tomorrow.
+
+Thursday April 24th 1-2:15PM
+
+We decided to refactor the name of our namespaces today, and a few of the class and interface names. We had some
+trouble at some points because we thought we lost the designer, but Ribler helped us find it, and then
+we got everything back on track. He set us up with a new pivotal tracker, but we couldn't get all the
+stories to import, but most are there, so we need to replace the ones we lost.
