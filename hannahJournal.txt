@@ -117,3 +117,7 @@ Decided to add tableauPiles class and began testing and creating the tableauPile
 Began creating a SolitaireModel class and an ISolitaireModel interface to test dealing the cards with the interface.
 Also, we also put together the non-visual code with the visual code. 
 
+-Thursday April 24th (1-2:15pm)
+Refactored lots of stuff today including namespaces, classes, and a few member functions.
+Got new pivotal tracker. Having github problems. Creating a new repository.
+
