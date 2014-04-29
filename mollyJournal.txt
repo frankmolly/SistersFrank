@@ -201,3 +201,14 @@ We decided to refactor the name of our namespaces today, and a few of the class 
 trouble at some points because we thought we lost the designer, but Ribler helped us find it, and then
 we got everything back on track. He set us up with a new pivotal tracker, but we couldn't get all the
 stories to import, but most are there, so we need to replace the ones we lost.
+
+Sunday April 27th 12-2PM
+
+Hannah created a new gitHub repository and we got all our stuff transferred for the most part. Spent some time
+to get everything over successfuly. Updated pivotal tracker with some of our stories that had been lost in the last
+move. Worked on the deal function.
+
+Monday April 28th 10PM-12AM
+
+We worked on the deal function. We wrote tests for the tableau piles that we could use for the deal function. We 
+wrote tests for deal function and then wrote the deal function unsuccessfully so far. We're still working on it. 
